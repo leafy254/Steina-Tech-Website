@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script src="index.js"></script>
+    <header>
+        <nav>
+            <div class="logo">Steina Tech Solutions</div>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section id="categories">
+        <h2>Categories</h2>
+        <div class="category-buttons">
+            <button class="btn" onclick="filterProducts('printers')">Printers</button>
+            <button class="btn" onclick="filterProducts('laptops')">Laptops</button>
+            <button class="btn" onclick="filterProducts('desktops')">Desktops</button>
+            <button class="btn" onclick="filterProducts('all')">All</button>
+        </div>
+    </section>
+
+    <section id="product-list">
+        <h2>Our Products</h2>
+        <div class="category">
+            <h2>Printers</h2>
+            <div class="category-grid">
+                <div class="product-card">
+                    <img src="images\printers\KONICA-MINOLTA-BIZHUB-C284.jpg" alt="Konica Minolta Bizhub C284">
+                    <h4>Konica Minolta Bizhub C284</h4>
+                    <p>28 COPIES PER MINUTE DUPLEX COLORED</p>
+                    <p>/-</p>
+                </div>
+                <div class="product-card">
+                    <img src="images\printers\ECOSYS_FS-4200DN-scaled-1.jpg" alt="Kyocera ECOSYS 4200DN">
+                    <h4>Kyocera ECOSYS 4200DN</h4>
+                    <p>52 PAGES PER MINUTE BLACK AND WHITE</p>
+                    <p>/-</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Laptops</h2>
+            <div class="category-grid">
+                <div class="product-card">
+                    <img src="images\laptops\850-56.jpg.webp" alt="HP EliteBook 840">
+                    <h4>HP EliteBook 840 G5</h4>
+                    <p>8TH GEN COREi7 16GB RAM 512SSD</p>
+                    <p>/-</p>
+                </div>
+                <div class="product-card">
+                    <img src="images\laptops\Lenovo-T470s.jpg.webp" alt="Lenovo T470s">
+                    <h4>Lenovo ThinkPad T460</h4>
+                    <p>7TH GEN COREi7 16GB RAM 512SSD</p>
+                    <p>/-</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Desktops</h2>
+            <div class="category-grid">
+                <div class="product-card">
+                    <img src="images\desktops\ikppcdch8cr9kkimewi3.webp" alt="HP EliteDesk 800 G3">
+                    <h4>HP EliteDesk 800G3</h4>
+                    <p>COREi5 8GB-RAM 500GB-HDD</p>
+                    <p>/-</p>
+                </div>
+                <div class="product-card">
+                    <img src="images\desktops\monitor.jpg" alt="Screen Monitors">
+                    <h4>Screen Monitors</h4>
+                    <p>EXPLORE A WIDE RANGE OF SCREEN MONITOR SIZES</p>
+                    <p>/-</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
